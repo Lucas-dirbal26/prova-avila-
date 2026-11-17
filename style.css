@@ -1,0 +1,99 @@
+h2 {
+    color: gray;
+}
+
+.campoBusca {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+
+}
+
+.entradaBusca {
+  display: block;
+  position: relative;
+  width: 50vw;
+}
+
+.entradaBusca img {
+  position: absolute;
+  top: 50%;
+  left: 16px;
+  width: 25px;
+  height: 25px;
+  transform: translateY(-50%);
+}
+
+.entradaBusca input {
+  box-sizing: border-box;
+  width: 100%;
+  height: 50px;
+  padding-left: 58px;
+  border: 1px solid black;
+  border-radius: 25px;
+}
+
+.botaoBusca {
+  box-sizing: border-box;
+  height: 50px;
+  border: none;
+  color: white;
+  padding: 0 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 0 2px;
+  border-radius: 25px;
+  cursor: pointer;
+  background-color: #04AA6D;
+}
+
+#quantidadeCarregada {
+  display: inline-block;
+  margin-top: 14px;
+  padding: 8px 14px;
+  border-radius: 999px;
+  background-color: #e8f5ef;
+  color: #087f5b;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+#usuarios {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 16px;
+  margin-top: 24px;
+}
+
+.usuario-card {
+  padding: 16px;
+  border: 1px solid #ddd;
+  border-radius: 12px;
+  background-color: white;
+}
+
+.usuario-identificacao h3,
+.usuario-identificacao p,
+.usuario-informacoes p {
+  margin: 0;
+}
+
+.usuario-identificacao h3 {
+  font-weight: 700;
+}
+
+.usuario-identificacao p {
+  margin-top: 4px;
+}
+
+.usuario-card hr {
+  border: 0;
+  border-top: 1px solid #ddd;
+  margin: 16px 0;
+}
+
+.usuario-informacoes p + p {
+  margin-top: 8px;
+}
