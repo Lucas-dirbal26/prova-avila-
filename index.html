@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prova - Avila</title>
+    <link rel="stylesheet" href="./style/style.css">
+</head>
+
+<body>
+
+    <header>
+
+        <h1>Diretório de usuários</h1>
+        <h2>Consulte e filtre integrantes de equipe</h2>
+
+        <label class="campoBusca" for="campoBusca">
+            <span class="entradaBusca">
+                <img src="./img/lupa.png" alt="">
+                <input id="campoBusca" type="text" placeholder="Buscar por nome, usuário ou empresa">
+            </span>
+            <button class="botaoBusca">Carregar usuários</button>
+        </label>
+
+        <span id="quantidadeCarregada"></span>
+    </header>
+
+    <main>
+        <div id="usuarios"></div>
+    </main>
+
+
+    <script src="./script.js"></script>
+</body>
+
+</html>
